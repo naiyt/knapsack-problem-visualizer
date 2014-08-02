@@ -12,6 +12,7 @@ This visualizer was written to help the students understand better what the algo
 
 The visualizer code just spins up an extra Pygame thread that reads events off of a queue that are created from each call to the decorated function. It then visualizes them accordingly, with the "goal" on the right, and the attempt at filling it properly. Successes are highlighted in green.
 
+Disclaimer: I was under a bit of a deadline to write this, so the visualization code may not be the cleanest (or most bug free).
+
 ![Example visualization](example.png)
 
-Disclaimer: I was under a bit of a deadline to write this, so the visualization code may not be the cleanest (or most bug free).
